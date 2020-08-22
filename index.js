@@ -22,7 +22,7 @@ function iLoveTheBeatles(number){
     list = "I love the Beatles!"
     number++
   } while (
-    15 - number >= 0
+    15 - number > 0
     );
     return list
 }
